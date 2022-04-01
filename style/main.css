@@ -1,6 +1,10 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
+}
+
+.notice {
+	font-size: 0.8em;
 }
 
 .scene {
@@ -49,7 +53,7 @@
 	transform: rotate(0deg);
 }
 
-.speedometer{
+.speedometer {
 	width: 150px;
 	right: 150px;
 	bottom: 0;
@@ -58,7 +62,7 @@
 	background-size: contain;
 }
 
-.speedometer>img{
+.speedometer>img {
 	width: 100%;
 }
 
