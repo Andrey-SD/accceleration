@@ -54,41 +54,13 @@ setInterval(() => {
 	if (currentSpeed < 1 && !acceleration) currentSpeed = 0;
 
 	position += currentSpeed;
-	l1.style.backgroundPositionX = `${-position/100}px`;
-	l2.style.backgroundPositionX = `${-position/50}px`;
-	l3.style.backgroundPositionX = `${-position/40}px`;
+	l1.style.backgroundPositionX = `${-position / 100}px`;
+	l2.style.backgroundPositionX = `${-position / 50}px`;
+	l3.style.backgroundPositionX = `${-position / 40}px`;
 	l4.style.backgroundPositionX = `${-position}px`;
 	l5.style.backgroundPositionX = `${-position}px`;
 	car.style.left = `${carPosition}px`;
 	whell1.style.transform = `rotate(${position}deg)`;
 	whell2.style.transform = `rotate(${position}deg)`;
-	arrow.style.transform = `rotate(${currentSpeed*9}deg)`;
-	console.log(currentSpeed, carPosition);
+	arrow.style.transform = `rotate(${currentSpeed * 9}deg)`;
 }, 20);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-parallax.addEventListener('mousemove', function (e) {
-	// let x = e.offsetX;
-	// l1.style.backgroundPositionX = `${x/10}5px`;
-	// l2.style.backgroundPositionX = `${x/8}px`;
-	// l3.style.backgroundPositionX = `${x/6}px`;
-	// l4.style.backgroundPositionX = `${x/4}px`;
-	// l5.style.backgroundPositionX = `${x/2}px`;
-});
